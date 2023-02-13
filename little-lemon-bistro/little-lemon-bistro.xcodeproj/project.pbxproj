@@ -7,22 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C797D78F2994E58600D7BAC0 /* little_lemon_bistroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D78E2994E58600D7BAC0 /* little_lemon_bistroApp.swift */; };
+		C797D78F2994E58600D7BAC0 /* LittleLemonBistroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D78E2994E58600D7BAC0 /* LittleLemonBistroApp.swift */; };
 		C797D7912994E58600D7BAC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7902994E58600D7BAC0 /* ContentView.swift */; };
 		C797D7932994E58700D7BAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C797D7922994E58700D7BAC0 /* Assets.xcassets */; };
 		C797D7962994E58700D7BAC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C797D7952994E58700D7BAC0 /* Preview Assets.xcassets */; };
-		C797D7982994E58700D7BAC0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7972994E58700D7BAC0 /* Persistence.swift */; };
 		C797D79B2994E58700D7BAC0 /* little_lemon_bistro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C797D7992994E58700D7BAC0 /* little_lemon_bistro.xcdatamodeld */; };
+		C797D7A32994EFB400D7BAC0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7A22994EFB400D7BAC0 /* OnboardingView.swift */; };
+		C797D7A72994EFD700D7BAC0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7A62994EFD700D7BAC0 /* HomeView.swift */; };
+		C797D7A92994EFE700D7BAC0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7A82994EFE700D7BAC0 /* ProfileView.swift */; };
+		C797D7E629950C0200D7BAC0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797D7E529950C0200D7BAC0 /* SplashView.swift */; };
+		C7A96D1729961C62001EFFEB /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D1629961C62001EFFEB /* MenuModel.swift */; };
+		C7A96D1C29963569001EFFEB /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D1B29963569001EFFEB /* MenuRepository.swift */; };
+		C7A96D2029963E1C001EFFEB /* Dish+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D1D29963E1C001EFFEB /* Dish+Extension.swift */; };
+		C7A96D2129963E1C001EFFEB /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D1E29963E1C001EFFEB /* FetchedObjects.swift */; };
+		C7A96D2229963E1C001EFFEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D1F29963E1C001EFFEB /* Persistence.swift */; };
+		C7A96D2929963FCB001EFFEB /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D2729963FCB001EFFEB /* Dish+CoreDataClass.swift */; };
+		C7A96D2A29963FCB001EFFEB /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D2829963FCB001EFFEB /* Dish+CoreDataProperties.swift */; };
+		C7A96D2E299643DC001EFFEB /* DishItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D2D299643DC001EFFEB /* DishItemView.swift */; };
+		C7A96D312996AAB4001EFFEB /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D302996AAB4001EFFEB /* UIApplication+Extensions.swift */; };
+		C7A96D332997E01F001EFFEB /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D322997E01F001EFFEB /* NavigationBarModifier.swift */; };
+		C7A96D352997E043001EFFEB /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D342997E043001EFFEB /* View+Extensions.swift */; };
+		C7A96D372999023D001EFFEB /* CheckBoxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A96D362999023D001EFFEB /* CheckBoxToggleStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C797D78B2994E58600D7BAC0 /* little-lemon-bistro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "little-lemon-bistro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C797D78E2994E58600D7BAC0 /* little_lemon_bistroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = little_lemon_bistroApp.swift; sourceTree = "<group>"; };
+		C797D78E2994E58600D7BAC0 /* LittleLemonBistroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonBistroApp.swift; sourceTree = "<group>"; };
 		C797D7902994E58600D7BAC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C797D7922994E58700D7BAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C797D7952994E58700D7BAC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C797D7972994E58700D7BAC0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C797D79A2994E58700D7BAC0 /* little_lemon_bistro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = little_lemon_bistro.xcdatamodel; sourceTree = "<group>"; };
+		C797D7A22994EFB400D7BAC0 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C797D7A62994EFD700D7BAC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C797D7A82994EFE700D7BAC0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C797D7E529950C0200D7BAC0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		C7A96D1629961C62001EFFEB /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		C7A96D1B29963569001EFFEB /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
+		C7A96D1D29963E1C001EFFEB /* Dish+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dish+Extension.swift"; sourceTree = "<group>"; };
+		C7A96D1E29963E1C001EFFEB /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		C7A96D1F29963E1C001EFFEB /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C7A96D2729963FCB001EFFEB /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C7A96D2829963FCB001EFFEB /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C7A96D2D299643DC001EFFEB /* DishItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishItemView.swift; sourceTree = "<group>"; };
+		C7A96D302996AAB4001EFFEB /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		C7A96D322997E01F001EFFEB /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		C7A96D342997E043001EFFEB /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		C7A96D362999023D001EFFEB /* CheckBoxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxToggleStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +85,15 @@
 		C797D78D2994E58600D7BAC0 /* little-lemon-bistro */ = {
 			isa = PBXGroup;
 			children = (
-				C797D78E2994E58600D7BAC0 /* little_lemon_bistroApp.swift */,
+				C7A96D2F2996AAA3001EFFEB /* Extensions */,
+				C7A96D2C299643C2001EFFEB /* Components */,
+				C7A96D1929963534001EFFEB /* Repos */,
+				C7A96D1829961E41001EFFEB /* CoreData */,
+				C7A96CFC29960FB9001EFFEB /* Models */,
+				C797D7A12994EF9600D7BAC0 /* Views */,
+				C797D78E2994E58600D7BAC0 /* LittleLemonBistroApp.swift */,
 				C797D7902994E58600D7BAC0 /* ContentView.swift */,
 				C797D7922994E58700D7BAC0 /* Assets.xcassets */,
-				C797D7972994E58700D7BAC0 /* Persistence.swift */,
 				C797D7992994E58700D7BAC0 /* little_lemon_bistro.xcdatamodeld */,
 				C797D7942994E58700D7BAC0 /* Preview Content */,
 			);
@@ -71,6 +106,64 @@
 				C797D7952994E58700D7BAC0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C797D7A12994EF9600D7BAC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C797D7A22994EFB400D7BAC0 /* OnboardingView.swift */,
+				C797D7A62994EFD700D7BAC0 /* HomeView.swift */,
+				C797D7A82994EFE700D7BAC0 /* ProfileView.swift */,
+				C797D7E529950C0200D7BAC0 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7A96CFC29960FB9001EFFEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7A96D1629961C62001EFFEB /* MenuModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7A96D1829961E41001EFFEB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C7A96D2729963FCB001EFFEB /* Dish+CoreDataClass.swift */,
+				C7A96D2829963FCB001EFFEB /* Dish+CoreDataProperties.swift */,
+				C7A96D1D29963E1C001EFFEB /* Dish+Extension.swift */,
+				C7A96D1E29963E1C001EFFEB /* FetchedObjects.swift */,
+				C7A96D1F29963E1C001EFFEB /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		C7A96D1929963534001EFFEB /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				C7A96D1B29963569001EFFEB /* MenuRepository.swift */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		C7A96D2C299643C2001EFFEB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7A96D2D299643DC001EFFEB /* DishItemView.swift */,
+				C7A96D322997E01F001EFFEB /* NavigationBarModifier.swift */,
+				C7A96D362999023D001EFFEB /* CheckBoxToggleStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C7A96D2F2996AAA3001EFFEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C7A96D302996AAB4001EFFEB /* UIApplication+Extensions.swift */,
+				C7A96D342997E043001EFFEB /* View+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C797D7A92994EFE700D7BAC0 /* ProfileView.swift in Sources */,
+				C7A96D2E299643DC001EFFEB /* DishItemView.swift in Sources */,
+				C797D7E629950C0200D7BAC0 /* SplashView.swift in Sources */,
+				C7A96D2229963E1C001EFFEB /* Persistence.swift in Sources */,
+				C7A96D2A29963FCB001EFFEB /* Dish+CoreDataProperties.swift in Sources */,
+				C7A96D2929963FCB001EFFEB /* Dish+CoreDataClass.swift in Sources */,
+				C7A96D312996AAB4001EFFEB /* UIApplication+Extensions.swift in Sources */,
 				C797D79B2994E58700D7BAC0 /* little_lemon_bistro.xcdatamodeld in Sources */,
-				C797D7982994E58700D7BAC0 /* Persistence.swift in Sources */,
+				C797D7A72994EFD700D7BAC0 /* HomeView.swift in Sources */,
+				C7A96D1729961C62001EFFEB /* MenuModel.swift in Sources */,
+				C7A96D352997E043001EFFEB /* View+Extensions.swift in Sources */,
+				C7A96D372999023D001EFFEB /* CheckBoxToggleStyle.swift in Sources */,
 				C797D7912994E58600D7BAC0 /* ContentView.swift in Sources */,
-				C797D78F2994E58600D7BAC0 /* little_lemon_bistroApp.swift in Sources */,
+				C7A96D2129963E1C001EFFEB /* FetchedObjects.swift in Sources */,
+				C797D78F2994E58600D7BAC0 /* LittleLemonBistroApp.swift in Sources */,
+				C7A96D1C29963569001EFFEB /* MenuRepository.swift in Sources */,
+				C7A96D332997E01F001EFFEB /* NavigationBarModifier.swift in Sources */,
+				C797D7A32994EFB400D7BAC0 /* OnboardingView.swift in Sources */,
+				C7A96D2029963E1C001EFFEB /* Dish+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +419,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
